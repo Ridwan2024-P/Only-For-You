@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/css/splide.min.css">
+    
+    <style>
+      
+    
+.Box {
+  
+
+    background-color:rgb(207, 97, 134);
+    font-family: Poppins, sans-serif;
+    font-size: 1rem;
+   
+
+ }
+ @media(max-width:600px){
+    .header h3{
+        
+           font-size: 22px;
+        
+
+    }
+   
+ }
+ 
+    </style>
+    <title>Only For You My Love</title>
+</head>
+<body style="background-color: rgb(231, 231, 241); overflow-x: hidden; font-family: sans-serif;">
+
+    <div class=" container mt-3 header">
+        <h3 class="alig text-start fw-bold text-sm-center " style="font-family: monospace; ">"Things that cannot be said."</h3>
+
+    </div>
+    
+
+    <div class="container">
+        <!-- Splide Slider -->
+        <div id="product-container" class="splide">
+            <div class="splide__track">
+                <div class="splide__list">
+                    <!-- Product Items -->
+                    <div class="splide__slide Box d-flex justify-content-center align-items-center">
+           
+                            <h1 class="fw-bold"style="font-family: monospace; ">"Text Only For You"</h1>    
+                    </div>
+                    <div class="splide__slide Box">
+                        <h3 class="container text-start pt-4 pt-sm-5">Dear You,</h4> <!-- Adjust padding for larger screens -->
+                        <h5 class="container  p-sm-3">Do you know dear,<br> those magical eyes of yours<br> make me only yours <br>again and again.</h5>
+                        <h6 class="container p-sm-3 mt-5 ">Date: 27/10/2024</h6> <!-- No padding on small screens -->
+                    </div>
+                  
+                    <div class="splide__slide Box">
+                        <h4 class="container text-start pt-4 pt-sm-5">Dear You,</h4> <!-- Adjust padding for larger screens -->
+                        <h5 class="container  p-sm-3"> <!-- Remove padding on small screens -->
+                           Main tere sath budha hona ki khwahish me jawaan hua hu. <br>
+                            Main uthna khuda ka nahi jitna tujhpe meherbaan hua hu. <br>
+                           Tere balon ke safed hone tak main tera sath nibhauunga <br>
+                            Tere apna jism sath chhod dega per main nahin jaunga.<br>
+                            Ek taveez bandha hai maine darakhta par our likha hai.<br>
+                            Main tujhse door jaunga,to mar jaunga.<br>
+                        </h5>
+                        <h6 class="container p-sm-3 mt-5 ">Date: 26/10/2024</h6> <!-- No padding on small screens -->
+                    </div>
+                    <div class="splide__slide Box">
+                        <h4 class="container text-start pt-4 pt-sm-5">Dear You,</h4> <!-- Adjust padding for larger screens -->
+                        <h5 class="container  p-sm-3"> <!-- Remove padding on small screens -->
+                            Words cannot express how much I miss you. <br>
+                            Without you, every second seems like a day. <br>
+                            I can hear how lovely your laughter is. <br>
+                            As I count down the seconds till we meet,<br>
+                            I yearn for the warmth of your hug.<br>
+                        </h5>
+                        <h6 class="container p-sm-3 mt-5 ">Date: 25/10/2024</h6> <!-- No padding on small screens -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+   
+    
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@3.6.12/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const splide = new Splide('#product-container', {
+        perPage: 1, 
+      
+        width:'100%',
+        height:'90vh',
+        
+        pagination: false,
+        autoplay: true,
+      
+        focus: 'center', 
+        breakpoints: {
+            600: {
+                perPage: 1, 
+            },
+        },
+    }).mount();
+});
+       
+    </script>
+</body>
+</html>
